@@ -1,0 +1,109 @@
+Component: Arm Compiler for Embedded 6.24 Tool: armlink [5f371500]
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x08000199
+
+  Load Region LR_ROM0 (Base: 0x08000000, Size: 0x000005b4, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ER_ROM0 (Base: 0x08000000, Size: 0x000005b4, Max: 0x00010000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08000000   0x000000ec   Data   RO           17    RESET               startup_stm32f10x_md.o
+    0x080000ec   0x00000008   Code   RO         1226  * !!!main             c_wu.l(__main.o)
+    0x080000f4   0x0000005c   Code   RO         1400    !!!scatter          c_wu.l(__scatter.o)
+    0x08000150   0x00000002   Code   RO         1401    !!handler_null      c_wu.l(__scatter.o)
+    0x08000152   0x00000002   PAD
+    0x08000154   0x0000001c   Code   RO         1404    !!handler_zi        c_wu.l(__scatter_zi.o)
+    0x08000170   0x00000002   Code   RO         1258    .ARM.Collect$$libinit$$00000000  c_wu.l(libinit.o)
+    0x08000172   0x00000000   Code   RO         1265    .ARM.Collect$$libinit$$00000002  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1267    .ARM.Collect$$libinit$$00000004  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1269    .ARM.Collect$$libinit$$00000006  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1272    .ARM.Collect$$libinit$$0000000C  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1274    .ARM.Collect$$libinit$$0000000E  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1276    .ARM.Collect$$libinit$$00000010  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1279    .ARM.Collect$$libinit$$00000013  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1281    .ARM.Collect$$libinit$$00000015  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1283    .ARM.Collect$$libinit$$00000017  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1285    .ARM.Collect$$libinit$$00000019  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1287    .ARM.Collect$$libinit$$0000001B  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1289    .ARM.Collect$$libinit$$0000001D  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1291    .ARM.Collect$$libinit$$0000001F  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1293    .ARM.Collect$$libinit$$00000021  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1295    .ARM.Collect$$libinit$$00000023  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1297    .ARM.Collect$$libinit$$00000025  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1299    .ARM.Collect$$libinit$$00000027  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1303    .ARM.Collect$$libinit$$0000002E  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1305    .ARM.Collect$$libinit$$00000030  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1307    .ARM.Collect$$libinit$$00000032  c_wu.l(libinit2.o)
+    0x08000172   0x00000000   Code   RO         1309    .ARM.Collect$$libinit$$00000034  c_wu.l(libinit2.o)
+    0x08000172   0x00000002   Code   RO         1310    .ARM.Collect$$libinit$$00000035  c_wu.l(libinit2.o)
+    0x08000174   0x00000002   Code   RO         1336    .ARM.Collect$$libshutdown$$00000000  c_wu.l(libshutdown.o)
+    0x08000176   0x00000000   Code   RO         1351    .ARM.Collect$$libshutdown$$00000002  c_wu.l(libshutdown2.o)
+    0x08000176   0x00000000   Code   RO         1353    .ARM.Collect$$libshutdown$$00000004  c_wu.l(libshutdown2.o)
+    0x08000176   0x00000000   Code   RO         1356    .ARM.Collect$$libshutdown$$00000007  c_wu.l(libshutdown2.o)
+    0x08000176   0x00000000   Code   RO         1359    .ARM.Collect$$libshutdown$$0000000A  c_wu.l(libshutdown2.o)
+    0x08000176   0x00000000   Code   RO         1361    .ARM.Collect$$libshutdown$$0000000C  c_wu.l(libshutdown2.o)
+    0x08000176   0x00000000   Code   RO         1364    .ARM.Collect$$libshutdown$$0000000F  c_wu.l(libshutdown2.o)
+    0x08000176   0x00000002   Code   RO         1365    .ARM.Collect$$libshutdown$$00000010  c_wu.l(libshutdown2.o)
+    0x08000178   0x00000000   Code   RO         1228    .ARM.Collect$$rtentry$$00000000  c_wu.l(__rtentry.o)
+    0x08000178   0x00000000   Code   RO         1230    .ARM.Collect$$rtentry$$00000002  c_wu.l(__rtentry2.o)
+    0x08000178   0x00000004   Code   RO         1244    .ARM.Collect$$rtentry$$00000007  c_wu.l(__rtentry7.o)
+    0x0800017c   0x00000000   Code   RO         1232    .ARM.Collect$$rtentry$$00000009  c_wu.l(__rtentry2.o)
+    0x0800017c   0x00000004   Code   RO         1233    .ARM.Collect$$rtentry$$0000000A  c_wu.l(__rtentry2.o)
+    0x08000180   0x00000000   Code   RO         1235    .ARM.Collect$$rtentry$$0000000C  c_wu.l(__rtentry2.o)
+    0x08000180   0x00000008   Code   RO         1236    .ARM.Collect$$rtentry$$0000000D  c_wu.l(__rtentry2.o)
+    0x08000188   0x00000004   Code   RO         1245    .ARM.Collect$$rtentry$$00002718  c_wu.l(__rtentry7.o)
+    0x0800018c   0x00000002   Code   RO         1262    .ARM.Collect$$rtexit$$00000000  c_wu.l(rtexit.o)
+    0x0800018e   0x00000000   Code   RO         1316    .ARM.Collect$$rtexit$$00000002  c_wu.l(rtexit2.o)
+    0x0800018e   0x00000004   Code   RO         1317    .ARM.Collect$$rtexit$$00000003  c_wu.l(rtexit2.o)
+    0x08000192   0x00000006   Code   RO         1318    .ARM.Collect$$rtexit$$00000004  c_wu.l(rtexit2.o)
+    0x08000198   0x00000040   Code   RO           18  * .text               startup_stm32f10x_md.o
+    0x080001d8   0x00000006   Code   RO         1224    .text               c_wu.l(heapauxi.o)
+    0x080001de   0x00000012   Code   RO         1251    .text               c_wu.l(exit.o)
+    0x080001f0   0x0000000c   Code   RO         1326    .text               c_wu.l(sys_exit.o)
+    0x080001fc   0x00000002   Code   RO         1341    .text               c_wu.l(use_no_semi.o)
+    0x080001fe   0x00000000   Code   RO         1343    .text               c_wu.l(indicate_semi.o)
+    0x080001fe   0x00000002   PAD
+    0x08000200   0x00000186   Code   RO          529    .text.GPIO_Init     stm32f10x_gpio.o
+    0x08000386   0x00000002   PAD
+    0x08000388   0x00000014   Code   RO          541    .text.GPIO_SetBits  stm32f10x_gpio.o
+    0x0800039c   0x00000034   Code   RO          741    .text.RCC_APB2PeriphClockCmd  stm32f10x_rcc.o
+    0x080003d0   0x00000008   Code   RO           27    .text.SetSysClock   system_stm32f10x.o
+    0x080003d8   0x00000122   Code   RO           31    .text.SetSysClockTo72  system_stm32f10x.o
+    0x080004fa   0x00000002   PAD
+    0x080004fc   0x00000066   Code   RO           25    .text.SystemInit    system_stm32f10x.o
+    0x08000562   0x00000002   PAD
+    0x08000564   0x00000040   Code   RO            4    .text.main          main.o
+    0x080005a4   0x00000010   Data   RO         1399    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_NOINIT (Base: 0x20000000, Size: 0x00000000, Max: 0x00004200, ABSOLUTE, UNINIT)
+
+    **** No section assigned to this execution region ****
+
+
+    Execution Region RW_RAM0 (Base: 0x20000000, Size: 0x00000600, Max: 0x00004200, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000200   Zero   RW           16    HEAP                startup_stm32f10x_md.o
+    0x20000200   0x00000400   Zero   RW           15    STACK               startup_stm32f10x_md.o
+
+
+    Execution Region ARM_LIB_HEAP (Base: 0x20000600, Size: 0x00000c00, Max: 0x00000c00, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000600   0x00000c00   Zero   RW            1    ARM_LIB_HEAP.bss    anon$$obj.o
+
+
+    Execution Region ARM_LIB_STACK (Base: 0x20004e00, Size: 0x00000200, Max: 0x00000200, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20004e00   0x00000200   Zero   RW            2    ARM_LIB_STACK.bss   anon$$obj.o
+

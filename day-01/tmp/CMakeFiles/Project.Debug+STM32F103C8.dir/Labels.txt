@@ -1,0 +1,16 @@
+# Target labels
+ Project.Debug+STM32F103C8
+# Source files and their labels
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8-complete.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-build.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-configure.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-database.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-download.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-executes.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-install.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-mkdir.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-patch.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-test.rule
+/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-update.rule

@@ -1,0 +1,8 @@
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/database.dir
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8.dir
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8-build.dir
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8-configure.dir
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8-executes.dir
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8-database.dir
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/edit_cache.dir
+/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/rebuild_cache.dir

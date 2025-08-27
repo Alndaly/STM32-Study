@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8-database"
+		},
+		{
+			"file" : "/Users/kinda/Developer/stm32-study/day-01/tmp/CMakeFiles/Project.Debug+STM32F103C8-database.rule"
+		},
+		{
+			"file" : "/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-database.rule"
+		},
+		{
+			"file" : "/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-configure.rule"
+		},
+		{
+			"file" : "/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-patch.rule"
+		},
+		{
+			"file" : "/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-update.rule"
+		},
+		{
+			"file" : "/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-download.rule"
+		},
+		{
+			"file" : "/Users/kinda/Developer/stm32-study/day-01/tmp/Project.Debug+STM32F103C8/src/Project.Debug+STM32F103C8-stamp/Project.Debug+STM32F103C8-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Project.Debug+STM32F103C8"
+		],
+		"name" : "Project.Debug+STM32F103C8-database"
+	}
+}

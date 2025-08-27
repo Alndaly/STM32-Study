@@ -1,0 +1,46 @@
+# A project translates into one executable or library.
+project:
+
+  groups:
+    - group: Source Files
+      files:
+        - file: ./main.c
+
+  # List components to use for your application.
+  # A software component is a re-usable unit that may be configurable.
+  components:
+    - component: ARM::CMSIS:CORE
+    - component: Device:Startup
+    - component: Device:StdPeriph Drivers:ADC
+    - component: Device:StdPeriph Drivers:BKP
+    - component: Device:StdPeriph Drivers:CAN
+    - component: Device:StdPeriph Drivers:CEC
+    - component: Device:StdPeriph Drivers:CRC
+    - component: Device:StdPeriph Drivers:DAC
+    - component: Device:StdPeriph Drivers:DBGMCU
+    - component: Device:StdPeriph Drivers:DMA
+    - component: Device:StdPeriph Drivers:EXTI
+    - component: Device:StdPeriph Drivers:FSMC
+    - component: Device:StdPeriph Drivers:Flash
+    - component: Device:StdPeriph Drivers:Framework
+    - component: Device:StdPeriph Drivers:GPIO
+    - component: Device:StdPeriph Drivers:I2C
+    - component: Device:StdPeriph Drivers:IWDG
+    - component: Device:StdPeriph Drivers:PWR
+    - component: Device:StdPeriph Drivers:RCC
+    - component: Device:StdPeriph Drivers:RTC
+    - component: Device:StdPeriph Drivers:SDIO
+    - component: Device:StdPeriph Drivers:SPI
+    - component: Device:StdPeriph Drivers:TIM
+    - component: Device:StdPeriph Drivers:USART
+    - component: Device:StdPeriph Drivers:WWDG
+
+  # List executable file formats to be generated.
+  output:
+    type:
+      - elf
+      - hex
+      - map
+  packs:
+    - pack: ARM::CMSIS
+    - pack: Keil::STM32F1xx_DFP

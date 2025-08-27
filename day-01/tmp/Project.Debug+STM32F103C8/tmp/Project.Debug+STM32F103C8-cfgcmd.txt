@@ -1,0 +1,1 @@
+cmd='/Users/kinda/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.31.5/bin/cmake;-G;Ninja;-S;<SOURCE_DIR>;-B;<BINARY_DIR>;-DSOLUTION_ROOT=/Users/kinda/Developer/stm32-study/day-01;-DCMSIS_PACK_ROOT=/Users/kinda/.cache/arm/packs;-DCMSIS_COMPILER_ROOT=/Users/kinda/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.10.0/etc'

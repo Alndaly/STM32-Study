@@ -1,0 +1,16 @@
+build-idx:
+  generated-by: csolution version 2.10.0
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: day-01.csolution.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: Project/Project.cproject.yml
+  cbuilds:
+    - cbuild: Project/Project.Debug+STM32F103C8.cbuild.yml
+      project: Project
+      configuration: .Debug+STM32F103C8
+      messages:
+        info:
+          - day-01.cbuild-pack.yml - file is already up-to-date
+          - day-01+STM32F103C8.cbuild-run.yml - file generated successfully
+          - Project.Debug+STM32F103C8.cbuild.yml - file is already up-to-date
