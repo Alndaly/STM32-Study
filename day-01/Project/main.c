@@ -1,15 +1,28 @@
-#include "RTE_Components.h"
-#include CMSIS_device_header
+#include "LED.h"
+#include "OLED.h"
+#include "Serial.h"
+#include "misc.h"
+#include <string.h>
 
 int main() {
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
-	GPIO_InitTypeDef GPIO_InitStructure;
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13;
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_Init(GPIOC, &GPIO_InitStructure);
-	GPIO_SetBits(GPIOC, GPIO_Pin_13);
-	// GPIO_ResetBits(GPIOC, GPIO_Pin_13);
-    for (;;) {
+  NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+  Serial_Init();
+  OLED_Init();
+  LED_Init();
+
+  for (;;) {
+    if (Serial_RxFlag == 1) {
+      OLED_Clear();
+      OLED_ShowString(1, 1, Serial_RxPacket);
+      if (strcmp(Serial_RxPacket, "LED_ON") == 0) {
+        LED1_ON();
+      } else if (strcmp(Serial_RxPacket, "LED_OFF") == 0) {
+        LED1_OFF();
+      } else {
+        OLED_ShowString(2, 1, "Wrong Command");
+        Serial_SendString("Wrong Command");
+      }
+      Serial_RxFlag = 0;
     }
+  }
 }

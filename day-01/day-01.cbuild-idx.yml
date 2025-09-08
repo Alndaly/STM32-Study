@@ -13,4 +13,4 @@ build-idx:
         info:
           - day-01.cbuild-pack.yml - file is already up-to-date
           - day-01+STM32F103C8.cbuild-run.yml - file generated successfully
-          - Project.Debug+STM32F103C8.cbuild.yml - file is already up-to-date
+          - Project.Debug+STM32F103C8.cbuild.yml - file generated successfully

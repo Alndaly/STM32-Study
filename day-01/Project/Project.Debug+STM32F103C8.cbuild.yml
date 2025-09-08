@@ -409,6 +409,55 @@ build:
       files:
         - file: main.c
           category: sourceC
+      groups:
+        - group: Library
+          files:
+            - file: Library/Timer.h
+              category: header
+            - file: Library/Timer.c
+              category: sourceC
+            - file: Library/OLED.h
+              category: header
+            - file: Library/OLED.c
+              category: sourceC
+            - file: Library/LED.h
+              category: header
+            - file: Library/LED.c
+              category: sourceC
+            - file: Library/OLEDFont.h
+              category: header
+            - file: Library/CountSensor.c
+              category: sourceC
+            - file: Library/CountSensor.h
+              category: header
+            - file: Library/Encoder.c
+              category: sourceC
+            - file: Library/Encoder.h
+              category: header
+            - file: Library/Delay.c
+              category: sourceC
+            - file: Library/Delay.h
+              category: header
+            - file: Library/PWM.c
+              category: sourceC
+            - file: Library/PWM.h
+              category: header
+            - file: Library/Motor.c
+              category: sourceC
+            - file: Library/Motor.h
+              category: header
+            - file: Library/Serial.c
+              category: sourceC
+            - file: Library/Serial.h
+              category: header
+            - file: Library/CustomI2C.h
+              category: header
+            - file: Library/CustomI2C.c
+              category: sourceC
+            - file: Library/CustomSPI.h
+              category: header
+            - file: CustomSPI.c
+              category: sourceC
   constructed-files:
     - file: RTE/_Debug_STM32F103C8/RTE_Components.h
       category: header
